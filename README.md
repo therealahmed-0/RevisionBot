@@ -5,7 +5,7 @@ An effective solution for revising using WhatsApp
 Please read the following instructions **carefully**, in order to make sure that the make the program works as intended
 
 ## 📋 Instructions:
-1. Replace the filler values in the .env file with the actual values that you have. It is preferred to use MongoDB Atlas for this, but you can use the traditional, locally installed MongoDB if you can guarantee to your users that it won't go offline.
+1. Run `npm install`. Replace the filler values in the .env file with the actual values that you have. It is preferred to use MongoDB Atlas for this, but you can use the traditional, locally installed MongoDB if you can guarantee to your users that it won't go offline.
 
 2. (optional if you already have data, and it has the same format as shown in addData.js) Go to addData.js and insert the data that you are going to use as questions in place of the sample values. Then, run `node addData.js` in your terminal, to push the data to MongoDB. **Make sure that the image tags are blank if there isn't an image, as it can disrupt the process and make the image or the wrong image appear with a question**
 
